@@ -8,10 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        "symbols": ['var(--symbols)'],
+      },
       colors: {
         "primary": "#415E91",
         "on-primary": "#fff",
         "on-surface": "#191C20",
+        "on-surface-variant": "#44474E",
+        "on-surface-08": "rgba(73, 69, 79, .08)",
+        "on-surface-12": "rgba(73, 69, 79, .12)",
+        "outline": "#74777F",
+        "outline-variant": "#C4C6D0",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
