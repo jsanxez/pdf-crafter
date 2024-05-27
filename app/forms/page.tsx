@@ -1,11 +1,9 @@
-import StepProgressBar from '../ui/stepprogressbar'
+import TextField from '../ui/textField'
 
 export default function Page() {
     return (
         <>
-        <StepProgressBar className="mt-4" />
-        <main>
-        </main>
+        <h1>Estas en el page de Forms</h1>
         </>
     )
 }
