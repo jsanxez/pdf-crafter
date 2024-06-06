@@ -14,6 +14,7 @@ const config: Config = {
       colors: {
         "primary": "#415E91",
         "on-primary": "#fff",
+        "surface-container-low": "#F3F3FA",
         "on-surface": "#191C20",
         "on-surface-variant": "#44474E",
         "on-surface-08": "rgba(73, 69, 79, .08)",
